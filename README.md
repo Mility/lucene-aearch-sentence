@@ -2,9 +2,10 @@
 基于lucene5.3.1的句子收索(Based on lucene search sentence)
  eg:
  Enter query: 
-I am a teacher.
-Searching for: i am a teacher
-216582 total matching sentences
+ I am a teacher.
+ Searching for: i am a teacher
+ 216582 total matching sentences
+ 
 1  I am a teacher., 4.8160295
 2  "I am a teacher." "so am i.", 4.236079
 3  I am a career teacher., 4.214026
