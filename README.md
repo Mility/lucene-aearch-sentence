@@ -1,4 +1,4 @@
-# lucene-aearch-sentence  
+# lucene-search-sentence  
 基于lucene5.3.1的句子收索(Based on lucene search sentence)  
  eg:  
  
