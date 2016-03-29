@@ -146,6 +146,7 @@ public static void main(String[] args) {
      
         QueryParser parser = new QueryParser("sentence", analyzer);
      
+        queries = queries.replaceAll("(\\p{Punct})", "");//去除所有的标点符号
         Query query = parser.parse(queries);
         System.out.println("Searching for: " + query.toString(queries));
         TopDocs results = searcher.search(query, 10);
